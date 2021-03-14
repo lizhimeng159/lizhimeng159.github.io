@@ -1,0 +1,39 @@
+#highlighter: pygments
+#markdown: kramdown
+#future: true
+#kramdown:
+#  parse_block_html: true
+#  syntax_highlighter: rouge
+#markdown: rdiscount
+#rdiscount:
+#  extensions: [smart]
+
+permalink: /:month-:day-:year/:title.html
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+port: 4000
+#safe: true
+
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Junjue Wang's Personal Website
+description: Junjue Wang is currently a computer science PhD candidate at Carnegie Mellon University.
+url: junjuew.github.io
+author: JunjueWang
+name: Junjue Wang <br/><br/> (王俊珏)
+email: junjuew dot cs dot cmu dot edu
+website: junjuew.github.io
+website_full: https://junjuew.github.io
+github: junjuew
+twitter: JunjueWang
+google_maps: 'https://goo.gl/maps/K4jX8fPdMA32'
+address: 9127 Gates Hillman Center, 4902 Forbes Ave
+postcode: 15213
+city: Pittsburgh
+country: USA
+google_analytics: UA-83573106-1
+
+# needed for travis-ci build
+exclude: [vendor]
