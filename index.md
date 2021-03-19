@@ -8,7 +8,7 @@ layout: layout
 
 {% include research-exp.md %}
 
-{% include publications.md %}
+{% include skills.md %}
 
 {% include employment.html %}
 
